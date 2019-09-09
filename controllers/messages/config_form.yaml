@@ -1,0 +1,17 @@
+name: Messages
+modelClass: Dizoo\Alerts\Models\Messages
+form: $/dizoo/alerts/models/messages/fields.yaml
+defaultRedirect: dizoo/alerts/messages
+create:
+    title: 'dizoo.alerts::lang.strings.form_create'
+    redirect: 'dizoo/alerts/messages/update/:id'
+    redirectClose: dizoo/alerts/messages
+    flashSave: 'dizoo.alerts::lang.strings.form_created'
+update:
+    title: 'dizoo.alerts::lang.strings.form_edit'
+    redirect: dizoo/alerts/messages
+    redirectClose: dizoo/alerts/messages
+    flashSave: 'dizoo.alerts::lang.strings.form_saved'
+    flashDelete: 'dizoo.alerts::lang.strings.form_removed'
+preview:
+    title: 'dizoo.alerts::lang.strings.form_preview'

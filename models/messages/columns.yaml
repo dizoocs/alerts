@@ -1,0 +1,18 @@
+columns:
+    message:
+        label: 'dizoo.alerts::lang.strings.field_message'
+        type: text
+        searchable: true
+    removable:
+        label: 'dizoo.alerts::lang.strings.field_removable'
+        type: text
+        searchable: true
+    status:
+        label: 'dizoo.alerts::lang.strings.field_status'
+        type: text
+        searchable: true
+    sort_order:
+        label: 'dizoo.alerts::lang.strings.sort_order'
+        type: number
+        invisible: true
+        sortable: true

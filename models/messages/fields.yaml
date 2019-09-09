@@ -1,0 +1,37 @@
+fields:
+    title:
+        label: 'dizoo.alerts::lang.strings.field_title'
+        span: auto
+        type: text
+    enddate:
+        label: 'dizoo.alerts::lang.strings.field_enddate'
+        mode: date
+        span: right
+        required: 1
+        type: datepicker
+    message:
+        label: 'dizoo.alerts::lang.strings.field_message'
+        size: small
+        span: full
+        required: 1
+        type: textarea
+    status:
+        label: 'dizoo.alerts::lang.strings.field_status'
+        span: left
+        type: switch
+    type:
+        label: 'dizoo.alerts::lang.strings.field_type'
+        options:
+            success: 'dizoo.alerts::lang.strings.field_type_green'
+            warning: 'dizoo.alerts::lang.strings.field_type_yellow'
+            danger: 'dizoo.alerts::lang.strings.field_type_red'
+        span: auto
+        type: balloon-selector
+        default: success
+        required: 1
+    removable:
+        label: 'dizoo.alerts::lang.strings.field_removable'
+        span: left
+        required: 0
+        type: switch
+        comment: 'dizoo.alerts::lang.strings.field_removable_desc'

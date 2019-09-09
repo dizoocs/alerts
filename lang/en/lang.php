@@ -1,0 +1,27 @@
+<?php return [
+    'plugin' => [
+        'name' => 'Alerts',
+        'description' => 'Plugin to display bootstrap alerts on your website.',
+    ],
+    'strings' => [
+        'field_title' => 'Title',
+        'field_enddate' => 'Show until',
+        'field_message' => 'Message',
+        'field_status' => 'Display',
+        'field_type' => 'Background color',
+        'field_type_green' => 'Green',
+        'field_type_yellow' => 'Yellow',
+        'field_type_red' => 'Red',
+        'field_removable' => 'Closable',
+        'field_removable_desc' => 'Allow the visitor to close the message',
+        'sort_order' => 'Order',
+        'permissions_title' => 'Alerts',
+        'permissions_label' => 'Add and remove alerts',
+        'form_create' => 'Create new alert',
+        'form_created' => 'New alert created',
+        'form_removed' => 'Alert has been deleted',
+        'form_edit' => 'Edit alert',
+        'form_saved' => 'Alert has been saved',
+        'form_preview' => 'Preview Alert',
+    ],
+];

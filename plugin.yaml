@@ -1,0 +1,17 @@
+plugin:
+    name: 'dizoo.alerts::lang.plugin.name'
+    description: 'dizoo.alerts::lang.plugin.description'
+    author: Dizoo
+    icon: oc-icon-exclamation
+    homepage: ''
+permissions:
+    manage-alerts:
+        tab: 'dizoo.alerts::lang.strings.permissions_title'
+        label: 'dizoo.alerts::lang.strings.permissions_label'
+navigation:
+    main-menu-item:
+        label: 'dizoo.alerts::lang.plugin.name'
+        url: dizoo/alerts/messages
+        icon: icon-exclamation
+        permissions:
+            - manage-alerts

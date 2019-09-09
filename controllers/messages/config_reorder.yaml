@@ -1,0 +1,5 @@
+title: Messages
+modelClass: Dizoo\Alerts\Models\Messages
+nameFrom: message
+toolbar:
+    buttons: reorder_toolbar

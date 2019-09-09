@@ -1,0 +1,17 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table dizoo_alerts_messages'
+    - builder_table_create_dizoo_alerts_messages.php
+1.0.3:
+    - 'Updated table dizoo_alerts_messages'
+    - builder_table_update_dizoo_alerts_messages.php
+1.0.4:
+    - 'Updated table dizoo_alerts_messages'
+    - builder_table_update_dizoo_alerts_messages_2.php
+1.0.5:
+    - 'Updated table dizoo_alerts_messages'
+    - builder_table_update_dizoo_alerts_messages_3.php
+1.0.6:
+    - 'Updated table dizoo_alerts_messages'
+    - builder_table_update_dizoo_alerts_messages_4.php
